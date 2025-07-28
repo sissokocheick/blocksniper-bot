@@ -2,7 +2,7 @@ const { ethers } = require("ethers");
 require("dotenv").config();
 
 // --- MODIFIED: Correct path to the artifact file ---
-const contractArtifact = require("../artifacts/contracts/BlockSniper.sol/BlockSniper.json");
+const contractArtifact = require("./artifacts/contracts/BlockSniper.sol/BlockSniper.json");
 const contractABI = contractArtifact.abi;
 
 // --- Configuration ---
