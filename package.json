@@ -1,0 +1,25 @@
+{
+  "name": "block-sniper-hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.26.1"
+  },
+  "dependencies": {
+    "@0xsequence/provider": "^2.3.23",
+    "@0xsequence/wallet": "^2.3.23",
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.0",
+    "framer-motion": "^12.23.9",
+    "use-sound": "^5.0.0"
+  }
+}
